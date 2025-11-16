@@ -1,0 +1,9 @@
+local player = game.Players.LocalPlayer
+local character = player.Character
+if character then
+    local humanoidRootPart = character:FindFirstChild("HumanoidRootPart")
+    if humanoidRootPart then
+        humanoidRootPart.CFrame = CFrame.new(284.4977722167969, 6.16837215423584, 64.3444595336914)
+    end
+end
+  
